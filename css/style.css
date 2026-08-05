@@ -83,12 +83,11 @@ header{
 ========================== */
 
 .hero {
-
-    height: 100vh;
+    min-height: 90vh;
 
     background:
-    linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
-    url("hero.png");
+        linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+        url("hero.png");
 
     background-size: cover;
     background-position: center;
