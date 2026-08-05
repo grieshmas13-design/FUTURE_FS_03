@@ -176,16 +176,51 @@ header{
 
 }
 /* ==========================
-   About
+   ABOUT
 ========================== */
 
-.about p{
+.about{
+    padding: 80px 10%;
+    background: #fff;
+}
 
-    max-width:900px;
-    margin:auto;
-    text-align:center;
-    font-size:18px;
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
 
+.about-image{
+    flex: 1;
+    min-width: 280px;
+    text-align: center;
+}
+
+.about-image img{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.about-text{
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-text h2{
+    font-size: 36px;
+    color: #7b1027;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.about-text p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
 }
 
 /* ==========================
